@@ -1,0 +1,122 @@
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+button{font:inherit;margin:0}
+html,body{font-family:Verdana,sans-serif;line-height:1.5;background-color: rgb(214, 214, 214);}
+body{margin:0px}
+html{overflow-x:hidden}
+h3{font-size:24px}
+h2{font-size:32px;}
+h3{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}
+body{font-size: 14px}
+.x-large{font-size: 48px;line-height: 2;text-align:center;}
+@media (min-width:601px){img{width: 70%;}}
+@media (max-width:375px){body{line-height: 1.2;font-size: 12px;}}
+@media (max-width:358px){.x-large{font-size: 36px;}}
+
+
+
+
+
+/*Effet cadre----------------------------------------------*/
+.display-none{display: none;}
+.btn{color: #fff;background-color: rgb(38, 58, 66);padding:0px 0px}
+.card{color: #fff;background-color: rgb(38, 58, 66);padding:0px 0px;margin-bottom: 2px;}
+
+
+
+/*Dégrade--------------------------------------------------*/
+/*.grad{background-image: linear-gradient(to right, #466075 0%, rgb(38, 58, 66)51%, #466075  100%);}*/
+.grad{background-color: #2a5d86;}
+
+
+/*Boutton Icone--------------------------------------------*/
+.btn-icons {background-color: rgba(255, 255, 255, 0);color: rgb(167, 177, 207);margin: 10px;size: 0px;padding: 10px 16px;text-align: center;text-transform: uppercase;transition: 0.5s;        border-radius: 20px;display: inline-block;border:none;overflow:hidden;text-decoration:none;white-space:nowrap;}
+.btn-icons:hover {text-decoration: none;color: #d41919;}
+
+.btn-icons-tiktok {background-color: rgba(255, 255, 255, 0);color: rgb(167, 177, 207);margin: 10px;size: 0px;padding: 10px 16px;text-align: center;text-transform: uppercase;transition: 0.5s;        border-radius: 20px;display: inline-block;border:none;overflow:hidden;text-decoration:none;white-space:nowrap;}
+.btn-icons-tiktok:hover {text-decoration: none;color: #ffffff;}
+
+.btn-icons-insta {background-color: rgba(255, 255, 255, 0);color: rgb(167, 177, 207);margin: 10px;size: 0px;padding: 10px 16px;text-align: center;text-transform: uppercase;transition: 0.5s;        border-radius: 20px;display: inline-block;border:none;overflow:hidden;text-decoration:none;white-space:nowrap;}
+.btn-icons-insta:hover {text-decoration: none;color: #bf0897;}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+.center{text-align:center!important; padding:0px 0px!important}
+.center2{text-align:center!important; padding:0px 0px!important}
+.button:disabled{cursor:not-allowed;opacity:0.3}:disabled *{pointer-events:none}
+.center{text-align:center!important}
+.margin{margin:16px!important}
+.margin-x{margin:5%!important}
+.padding-small{padding:1px 1px!important}.padding{padding:8px 16px!important}
+.button:hover{color:#000!important;background-color:#def8fd!important}
+/* Colors */
+.black{color:#fff!important;background-color:rgb(38, 58, 66)!important}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+div {text-align:justify; text-justify:auto;}
+p {text-align:justify; text-justify:auto;}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+.btn-blue{padding: 15px 45px;width: 150px;background-color: rgb(38, 58, 66);margin: 0px;text-align: center;text-transform: uppercase;transition: 1s;color: rgb(255, 255, 255);border:none;vertical-align:middle;overflow:hidden;text-decoration:none;white-space:nowrap;position: relative;}
+.btn-blue:hover{background-color:#def8fd;color:rgb(0, 0, 0);text-decoration: none;}
+
+.dropdown-hover{position:absolute;cursor:pointer;margin-top: 2px;}
+.dropdown-hover:hover .dropdown-content{display:block}
+.dropdown-content{cursor:auto;color:rgb(255, 255, 255);background-color:#fff;display:none;position:absolute;margin:0;padding:0;z-index:1}
+
+.bar-block .bar-item{position:relative;width: 150px;display:block;transition: 1s;padding:15px 20%;text-align:center;white-space:normal;float:none;outline:0;background-color:rgb(38, 58, 66)}
+.bar-item:hover{background-color:#5b7b96;color:#fff} 
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+.container:after,.container:before,.row:after,.row:before{content:"";display:table;clear:both}
+.row{background-color: #eaeaec;}
+.marginleft{margin:10px;margin-top: 0px;}
+.marginright{margin:10px;margin-top: 0px;}
+.container{padding:0.01em 16px}
+.third,.twothird{float:left;width:100%}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+.colorblue{  color: rgb(167, 177, 207)!important}
+.colorblue2{  color: #2a5d86!important}
+.black{color:#fff!important;background-color:rgb(38, 58, 66)!important}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+.content{margin-left:auto;margin-right:auto}
+.mySlides {display:none;}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+.round-xlarge{border-radius:20px}.round-left{border-radius:20px}.round-right{border-radius:20px}
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+.table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.table-all{border:1px solid #ccc}
+.table-all tr{border-bottom:1px solid #ddd}
+.table-all tr:nth-child(odd){background-color:#fff}.table-all tr:nth-child(even){background-color:#f1f1f1}
+.table-all td,.table-all th{padding:8px 8px;display:table-cell;text-align:left;vertical-align:top}
+.table-all th:first-child,.table-all td:first-child{padding-left:16px}:disabled *{pointer-events:none}
+.light-grey{color:#000!important;background-color:#f1f1f1!important}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+.button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+.button:disabled{cursor:not-allowed;opacity:0.3}:disabled *{pointer-events:none}
+.display-container{position:relative}
+.display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+.button:hover{color:#000!important;background-color:#def8fd!important}
+
+.border{border:2px solid #ccc!important;border-color:rgb(38, 58, 66)!important;}
+
+
+.animate-left{position:relative;animation:animateleft 1s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
