@@ -74,7 +74,8 @@ p {text-align:justify; text-justify:auto;}
 .marginleft{margin:10px;margin-top: 0px;}
 .marginright{margin:10px;margin-top: 0px;}
 .container{padding:0.01em 16px}
-.third,.twothird{float:left;width:100%}
+.third{float:left;width:100%}
+.twothird{float:left;width:100%}
 
 
 /*-----------------------------------------------------------------------------------------------------------------------------------*/
@@ -120,3 +121,5 @@ p {text-align:justify; text-justify:auto;}
 
 
 .animate-left{position:relative;animation:animateleft 1s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+
+.hover-grey:hover{opacity:0.60}
