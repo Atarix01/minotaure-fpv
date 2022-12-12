@@ -5,14 +5,16 @@ body{margin:0px}
 html{overflow-x:hidden}
 h3{font-size:32px}
 h2{font-size:48px;}
-h3{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}
+h3{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0;text-align: center}
 .x-large{font-size: 56px;text-align: center;}
+@media (max-width:1000px){h3{font-size: 24px;text-align: center}}
 
 
 
 
 /*Effet cadre----------------------------------------------*/
 .card{color: #fff;background-color: rgb(38, 58, 66);padding:0px 0px;margin-bottom: 2px;}
+.card-menu{color: #fff;background-color: rgb(38, 58, 66);padding:0px 0px;margin-bottom: 2px;}
 
 
 /*Dégrade--------------------------------------------------*/
@@ -65,6 +67,7 @@ p {text-align:justify; text-justify:auto;}
 .marginleft{margin-left: 6%;margin-right: 0%;}
 .marginright{margin-right: 6%;margin-left: 0%;}
 .container{padding:0.01em 16px}
+.container2{text-align: center;height: 300px;}
 .third{float:left;width:33.33333%}.twothird{float:left;width:66.66666%}
 
 /*-----------------------------------------------------------------------------------------------------------------------------------*/
