@@ -1,17 +1,19 @@
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 button{font:inherit;margin:0}
 html,body{font-family:Verdana,sans-serif;line-height:1.5;background-color: rgb(214, 214, 214);}
-body{margin:0px}
+body{margin:0px; transition-duration: 1s;}
 html{overflow-x:hidden}
 h3{font-size:24px}
 h2{font-size:32px;}
 h3{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}
-body{font-size: 14px}
+body{font-size: 14px; transition-duration: 1s;}
 .x-large{font-size: 48px;line-height: 2;text-align:center;}
-@media (min-width:601px){img{width: 70%;}}
+@media (min-width:601px){img{width: 50%;}}
+@media (min-width:601px){.img{top:00%;left:50%;transform:translate(50%,00%);-ms-transform:translate(50%,00%);}}
 @media (max-width:375px){body{line-height: 1.2;font-size: 12px;}}
 @media (max-width:358px){.x-large{font-size: 36px;}}
-
+@media (min-width:630px){h3{font-size: 32px;padding: 10px;}}
+@media (min-width:700px){.re-size{width: 50%;top:00%;left:50%;transform:translate(50%,00%);-ms-transform:translate(50%,00%);}}
 
 
 
@@ -40,7 +42,6 @@ body{font-size: 14px}
 
 /*-----------------------------------------------------------------------------------------------------------------------------------*/
 .center{text-align:center!important; padding:0px 0px!important}
-.center2{text-align:center!important; padding:0px 0px!important}
 .button:disabled{cursor:not-allowed;opacity:0.3}:disabled *{pointer-events:none}
 .center{text-align:center!important}
 .margin{margin:16px!important}
@@ -92,6 +93,7 @@ p {text-align:justify; text-justify:auto;}
 /*-----------------------------------------------------------------------------------------------------------------------------------*/
 .content{margin-left:auto;margin-right:auto}
 .mySlides {display:none;}
+.none{display:none;}
 
 
 /*-----------------------------------------------------------------------------------------------------------------------------------*/
@@ -106,6 +108,12 @@ p {text-align:justify; text-justify:auto;}
 .table-all td,.table-all th{padding:8px 8px;display:table-cell;text-align:left;vertical-align:top}
 .table-all th:first-child,.table-all td:first-child{padding-left:16px}:disabled *{pointer-events:none}
 .light-grey{color:#000!important;background-color:#f1f1f1!important}
+
+
+
+.ul{list-style-type:none;padding:0;margin:0;background-color: #eaeaec;}
+.ul li{padding:8px 16px;border-bottom:1px solid #ddd}
+.ul li:last-child{border-bottom:none}
 
 
 /*-----------------------------------------------------------------------------------------------------------------------------------*/
