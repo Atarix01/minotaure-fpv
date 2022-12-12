@@ -63,7 +63,7 @@ p {text-align:justify; text-justify:auto;}
 .rnd{border-radius:0px 0px 17px 0px}
 .dropdown-hover{border-radius:0px 0px 17px 0px;position:absolute;cursor:pointer;margin-top: 2px;}
 .dropdown-hover:hover .dropdown-content{display:block}
-.dropdown-content{cursor:auto;color:rgb(255, 255, 255);background-color:#fff;display:none;position:absolute;margin:0;padding:0;z-index:1}
+.dropdown-content{border-radius:0px 0px 17px 0px;cursor:auto;color:rgb(255, 255, 255);background-color:#fff;display:none;position:absolute;margin:0;padding:0;z-index:1}
 
 .bar-block .bar-item{position:relative;width: 150px;display:block;transition: 1s;padding:15px 20%;text-align:center;white-space:normal;float:none;outline:0;background-color:rgb(38, 58, 66)}
 .bar-item:hover{background-color:#5b7b96;color:#fff} 
