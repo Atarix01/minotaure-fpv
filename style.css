@@ -13,7 +13,7 @@ h3{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0;text-al
 .img2:hover{width: 100%;height: auto;top:00%;left:0 0%;transform:translate(00%,00%);-ms-transform:translate(00%,00%);}
 .img3{width: 50%;height: auto;top:00%;left:50%;transform:translate(50%,00%);-ms-transform:translate(50%,00%);}
 .img{display: block;margin-left: auto;margin-right: auto;width: 100%;}
-.img-width{margin-left: auto;margin-right: auto;width: 100%;}
+.img-width{width: 100%; height: auto}
 .img-banner{display: block;margin-left: auto;margin-right: auto;width: 100%;}
 
 
@@ -91,6 +91,7 @@ p {text-align:justify; text-justify:auto;}
 
 /*TEXTE DANS IMAGE--------------------------------------------------------------------------------------------------------------------------*/
 .display-container{position:relative}
+.display-container-image{position:relative; width:100%;height: auto;}
 .display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
 .display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
 .display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}

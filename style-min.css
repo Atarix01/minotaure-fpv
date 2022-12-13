@@ -15,6 +15,7 @@ body{font-size: 14px; transition-duration: 1s;}
 @media (min-width:630px){h3{font-size: 32px;padding: 10px;}}
 @media (min-width:700px){.re-size{width: 50%;top:00%;left:50%;transform:translate(50%,00%);-ms-transform:translate(50%,00%);}}
 .img2{top:00%;left:50%;transform:translate(50%,00%);-ms-transform:translate(50%,00%);}
+.img-width{width: 100%; height: auto}
 
 
 /*Effet cadre----------------------------------------------*/
@@ -123,6 +124,7 @@ p {text-align:justify; text-justify:auto;}
 .display-container{position:relative}
 .display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
 .display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+.display-container-image{position:relative; width:100%;height: auto;}
 .button:hover{color:#000!important;background-color:#def8fd!important}
 
 .border{border:2px solid #ccc!important;border-color:rgb(38, 58, 66)!important;}

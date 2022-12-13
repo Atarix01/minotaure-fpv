@@ -107,10 +107,10 @@
 
     <h3 class="center">Quelques images...</h3>
 
-  <div class="content display-container border">
-    <img class="mySlides" src="media/drone5/drone1.jpg" class="img-width">
-    <img class="mySlides" src="media/drone5/drone2.jpg" class="img-width">
-    <img class="mySlides" src="media/drone5/drone3.jpg" class="img-width">
+  <div class="content display-container-image border">
+    <img class="mySlides img-width" src="media/drone5/drone1.jpg">
+    <img class="mySlides img-width" src="media/drone5/drone2.jpg">
+    <img class="mySlides img-width" src="media/drone5/drone3.jpg">
 
     <button class="button black display-left" onclick="plusDivs(-1)">&#10094;</button>
     <button class="button black display-right" onclick="plusDivs(1)">&#10095;</button>
@@ -132,7 +132,7 @@
     for (i = 0; i < x.length; i++) {
       x[i].style.display = "none";  
     }
-    x[slideIndex-1].style.display = "block";  
+    x[slideIndex-1].style.display = "block"
   }
   </script>
 
