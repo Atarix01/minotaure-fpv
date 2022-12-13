@@ -16,6 +16,13 @@ body{font-size: 14px; transition-duration: 1s;}
 @media (min-width:700px){.re-size{width: 50%;top:00%;left:50%;transform:translate(50%,00%);-ms-transform:translate(50%,00%);}}
 .img2{top:00%;left:50%;transform:translate(50%,00%);-ms-transform:translate(50%,00%);}
 .img-width{width: 100%; height: auto}
+.img-article{display: block;margin-left: auto;margin-right: auto;width: 60%;}
+.img-small{display: block;margin-left: auto;margin-right: auto;width: 50%;}
+.img-big{display: block;margin-left: auto;margin-right: auto;width: 80%;}
+@media (max-width:450px){.img-big{display: block;margin-left: auto;margin-right: auto;width: 100%;}}
+.img-big:hover{display: block;margin-left: auto;margin-right: auto;width: 110%;}
+.img-hover{display: block;margin-left: auto;margin-right: auto;width: 70%;}
+.img-hover:hover{display: block;margin-left: auto;margin-right: auto;width: 100%;}
 
 
 /*Effet cadre----------------------------------------------*/

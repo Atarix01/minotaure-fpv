@@ -13,9 +13,13 @@ h3{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0;text-al
 .img2:hover{width: 100%;height: auto;top:00%;left:0 0%;transform:translate(00%,00%);-ms-transform:translate(00%,00%);}
 .img3{width: 50%;height: auto;top:00%;left:50%;transform:translate(50%,00%);-ms-transform:translate(50%,00%);}
 .img{display: block;margin-left: auto;margin-right: auto;width: 100%;}
+.img-article{display: block;margin-left: auto;margin-right: auto;width: 60%;}
+.img-small{display: block;margin-left: auto;margin-right: auto;width: 50%;}
+.img-big{display: block;margin-left: auto;margin-right: auto;width: 70%;}
 .img-width{width: 100%; height: auto}
 .img-banner{display: block;margin-left: auto;margin-right: auto;width: 100%;}
-
+.img-hover{display: block;margin-left: auto;margin-right: auto;width: 70%;}
+.img-hover:hover{display: block;margin-left: auto;margin-right: auto;width: 100%;}
 
 
 /*Effet cadre----------------------------------------------*/
