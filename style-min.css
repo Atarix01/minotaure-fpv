@@ -14,9 +14,7 @@ body{font-size: 14px; transition-duration: 1s;}
 @media (max-width:358px){.x-large{font-size: 36px;}}
 @media (min-width:630px){h3{font-size: 32px;padding: 10px;}}
 @media (min-width:700px){.re-size{width: 50%;top:00%;left:50%;transform:translate(50%,00%);-ms-transform:translate(50%,00%);}}
-
-
-
+.img2{top:00%;left:50%;transform:translate(50%,00%);-ms-transform:translate(50%,00%);}
 
 /*Effet cadre----------------------------------------------*/
 .display-none{display: none;}
@@ -50,6 +48,7 @@ body{font-size: 14px; transition-duration: 1s;}
 .button:hover{color:#000!important;background-color:#def8fd!important}
 /* Colors */
 .black{color:#fff!important;background-color:rgb(38, 58, 66)!important}
+.white{background-color: #fff!important}
 
 
 /*-----------------------------------------------------------------------------------------------------------------------------------*/
