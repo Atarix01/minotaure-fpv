@@ -10,9 +10,10 @@ h3{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0;text-al
 @media (max-width:1100px){h3{font-size: 24px;text-align: center}}
 
 .img2{width: 50%;height: auto;top:00%;left:50%;transform:translate(50%,00%);-ms-transform:translate(50%,00%);}
-.img3{width: 50%;height: auto;top:00%;left:50%;transform:translate(50%,00%);-ms-transform:translate(50%,00%);}
 .img2:hover{width: 100%;height: auto;top:00%;left:0 0%;transform:translate(00%,00%);-ms-transform:translate(00%,00%);}
-.img{width:100% ;height:auto}
+.img3{width: 50%;height: auto;top:00%;left:50%;transform:translate(50%,00%);-ms-transform:translate(50%,00%);}
+.img{display: block;margin-left: auto;margin-right: auto;width: 100%;}
+.img-width{width: 10%;}
 
 
 
@@ -139,3 +140,4 @@ table{width: 100%;table-layout: auto;}
 .animate-left{position:relative;animation:animateleft 1s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
 
 .hover-grey:hover{opacity:0.60}
+
