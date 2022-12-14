@@ -93,7 +93,9 @@ p {text-align:justify; text-justify:auto;}
 .white{background-color: #fff!important}
 
 /*-----------------------------------------------------------------------------------------------------------------------------------*/
-
+.rnd-bottom{border-radius:0px 0px 20px 20px}
+.rnd-top{border-radius:20px 80px 0px 0px}
+.padding-art{padding: 16px !important;}
 
 /*TEXTE DANS IMAGE--------------------------------------------------------------------------------------------------------------------------*/
 .display-container{position:relative}
@@ -148,8 +150,6 @@ table{width: 100%;table-layout: auto;}
 .animate-left{position:relative;animation:animateleft 1s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
 
 .hover-grey:hover{opacity:0.60}
-
-.re-size{margin-left: auto;margin-right: auto;width: 100%}
 
 .space-10{height: 1.5em;}
 .space-20{height: 2em;}

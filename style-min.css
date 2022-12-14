@@ -15,6 +15,7 @@ body{font-size: 14px; transition-duration: 1s;}
 @media (min-width:630px){h3{font-size: 32px;padding: 10px;}}
 @media (min-width:700px){.re-size{width: 50%;top:00%;left:50%;transform:translate(50%,00%);-ms-transform:translate(50%,00%);}}
 @media (max-width:450px){.img-big{display: block;margin-left: auto;margin-right: auto;width: 100%;}}
+@media (max-width:450px){.text{font-size: 12px;}}
 
 .img2{top:00%;left:50%;transform:translate(50%,00%);-ms-transform:translate(50%,00%);}
 .img-width{width: 100%; height: auto}
@@ -54,6 +55,7 @@ body{font-size: 14px; transition-duration: 1s;}
 .button:disabled{cursor:not-allowed;opacity:0.3}:disabled *{pointer-events:none}
 .center{text-align:center!important}
 .margin{margin:16px!important}
+.padding-art{padding: 16px !important;}
 .margin-x{margin:5%!important}
 .padding-small{padding:1px 1px!important}.padding{padding:8px 16px!important}
 .button:hover{color:#000!important;background-color:#def8fd!important}
@@ -71,6 +73,8 @@ p {text-align:justify; text-justify:auto;}
 .btn-blue{border-radius:0px 17px 0px 0px;padding: 15px 45px;width: 150px;background-color: rgb(38, 58, 66);margin: 0px;text-align: center;text-transform: uppercase;transition: 1s;color: rgb(255, 255, 255);border:none;vertical-align:middle;overflow:hidden;text-decoration:none;white-space:nowrap;position: relative;}
 .btn-blue:hover{background-color:#def8fd;color:rgb(0, 0, 0);text-decoration: none;}
 .rnd{border-radius:0px 0px 17px 0px}
+.rnd-bottom{border-radius:0px 0px 20px 20px}
+.rnd-top{border-radius:20px 80px 0px 0px}
 .dropdown-hover{border-radius:0px 0px 17px 0px;position:absolute;cursor:pointer;margin-top: 2px;}
 .dropdown-hover:hover .dropdown-content{display:block}
 .dropdown-content{border-radius:0px 0px 17px 0px;cursor:auto;color:rgb(255, 255, 255);background-color:#fff;display:none;position:absolute;margin:0;padding:0;z-index:1}
@@ -90,6 +94,7 @@ p {text-align:justify; text-justify:auto;}
 .third-art{float:left;width:50%}
 
 
+
 /*-----------------------------------------------------------------------------------------------------------------------------------*/
 .space{height: 2em;}
 
@@ -99,6 +104,7 @@ p {text-align:justify; text-justify:auto;}
 .black{color:#fff!important;background-color:rgb(38, 58, 66)!important}
 
 /*-----------------------------------------------------------------------------------------------------------------------------------*/
+
 
 
 /*-----------------------------------------------------------------------------------------------------------------------------------*/
@@ -151,3 +157,5 @@ p {text-align:justify; text-justify:auto;}
 .space-30{height: 1.5em;}
 .space-50{height: 2em;}
 .space-70{height: 70px;}
+
+.text{font-size: 16px;}
