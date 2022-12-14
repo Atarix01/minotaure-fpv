@@ -13,11 +13,8 @@ body{font-size: 14px; transition-duration: 1s;}
 @media (max-width:375px){body{line-height: 1.2;font-size: 12px;}}
 @media (max-width:358px){.x-large{font-size: 36px;}}
 @media (min-width:630px){h3{font-size: 32px;padding: 10px;}}
-@media (min-width:700px){.re-size{width: 50%;top:00%;left:50%;transform:translate(50%,00%);-ms-transform:translate(50%,00%);}}
 @media (max-width:450px){.img-big{display: block;margin-left: auto;margin-right: auto;width: 100%;}}
 @media (max-width:450px){.text{font-size: 12px;}}
-@media (max-width:450px){.rnd-bottom{border-radius:0px 0px 15px 15px}}
-@media (max-width:450px){.rnd-top{border-radius:15px 50px 0px 0px}}
 
 .img2{top:00%;left:50%;transform:translate(50%,00%);-ms-transform:translate(50%,00%);}
 .img-width{width: 100%; height: auto}
@@ -71,7 +68,7 @@ div,p {text-align:justify; text-justify:auto;}
 .btn-blue:hover{background-color:#def8fd;color:rgb(0, 0, 0);text-decoration: none;}
 .rnd{border-radius:0px 0px 17px 0px}
 .rnd-bottom{border-radius:0px 0px 20px 20px}
-.rnd-top{border-radius:20px 80px 0px 0px}
+.rnd-top{border-radius:20px 30% 0px 0px}
 .dropdown-hover{border-radius:0px 0px 17px 0px;position:absolute;cursor:pointer;margin-top: 2px;}
 .dropdown-hover:hover .dropdown-content{display:block}
 .dropdown-content{border-radius:0px 0px 17px 0px;cursor:auto;color:rgb(255, 255, 255);background-color:#fff;display:none;position:absolute;margin:0;padding:0;z-index:1}
