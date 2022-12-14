@@ -12,20 +12,17 @@ h3{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0;text-al
 .img2{width: 50%;height: auto;top:00%;left:50%;transform:translate(50%,00%);-ms-transform:translate(50%,00%);}
 .img2:hover{width: 100%;height: auto;top:00%;left:0 0%;transform:translate(00%,00%);-ms-transform:translate(00%,00%);}
 .img3{width: 50%;height: auto;top:00%;left:50%;transform:translate(50%,00%);-ms-transform:translate(50%,00%);}
-.img{display: block;margin-left: auto;margin-right: auto;width: 100%;}
+.img,.img-hover:hover {display: block;margin-left: auto;margin-right: auto;width: 100%;}
 .img-article{display: block;margin-left: auto;margin-right: auto;width: 60%;}
 .img-small{display: block;margin-left: auto;margin-right: auto;width: 50%;}
-.img-big{display: block;margin-left: auto;margin-right: auto;width: 70%;}
+.img-big .img-hover {display: block;margin-left: auto;margin-right: auto;width: 70%;}
 .img-width{width: 100%; height: auto}
 .img-banner{display: block;margin-left: auto;margin-right: auto;width: 100%;}
-.img-hover{display: block;margin-left: auto;margin-right: auto;width: 70%;}
-.img-hover:hover{display: block;margin-left: auto;margin-right: auto;width: 100%;}
 .img-articles{margin-left: auto;margin-right: auto;width: 100%;}
 
 
 /*Effet cadre----------------------------------------------*/
-.card{color: #fff;background-color: rgb(38, 58, 66);padding:0px 0px;margin-bottom: 2px;}
-.card-menu{color: #fff;background-color: rgb(38, 58, 66);padding:0px 0px;margin-bottom: 2px;}
+.card,.card-menu {color: #fff;background-color: rgb(38, 58, 66);padding:0px 0px;margin-bottom: 2px;}
 
 
 /*Dégrade--------------------------------------------------*/
@@ -33,13 +30,9 @@ h3{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0;text-al
 
 
 /*Boutton Icone--------------------------------------------*/
-.btn-icons {background-color: rgba(255, 255, 255, 0);color: rgb(167, 177, 207);margin: 10px;size: 0px;padding: 10px 16px;text-align: center;text-transform: uppercase;transition: 0.5s;        border-radius: 20px;display: inline-block;border:none;overflow:hidden;text-decoration:none;white-space:nowrap;}
+.btn-icons,.btn-icons-tiktok,.btn-icons-insta {background-color: rgba(255, 255, 255, 0);color: rgb(167, 177, 207);margin: 10px;size: 0px;padding: 10px 16px;text-align: center;text-transform: uppercase;transition: 0.5s;border-radius: 20px;display: inline-block;border:none;overflow:hidden;text-decoration:none;white-space:nowrap;}
 .btn-icons:hover {text-decoration: none;color: #d41919;}
-
-.btn-icons-tiktok {background-color: rgba(255, 255, 255, 0);color: rgb(167, 177, 207);margin: 10px;size: 0px;padding: 10px 16px;text-align: center;text-transform: uppercase;transition: 0.5s;        border-radius: 20px;display: inline-block;border:none;overflow:hidden;text-decoration:none;white-space:nowrap;}
 .btn-icons-tiktok:hover {text-decoration: none;color: #ffffff;}
-
-.btn-icons-insta {background-color: rgba(255, 255, 255, 0);color: rgb(167, 177, 207);margin: 10px;size: 0px;padding: 10px 16px;text-align: center;text-transform: uppercase;transition: 0.5s;        border-radius: 20px;display: inline-block;border:none;overflow:hidden;text-decoration:none;white-space:nowrap;}
 .btn-icons-insta:hover {text-decoration: none;color: #bf089d;}
 
 /*TEXTE-----------------------------------------------------------------------------------------------------------------------------*/
@@ -54,14 +47,13 @@ h3{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0;text-al
 
 
 /*TEXT JUSTIFIE------------------------------------------------------------------------------------------------------------------------------*/
-div {text-align:justify; text-justify:auto;}
-p {text-align:justify; text-justify:auto;}
+div,p {text-align:justify; text-justify:auto;}
 
 
 /*MENU DEROULANT------------------------------------------------------------------------------------------------------------------------*/
-.btn-blue{border-radius:0px 30px 0px 0px;padding: 15px 45px;width: 200px;background-color: rgb(38, 58, 66);margin: 0px;text-align: center;text-transform: uppercase;transition: 1s;color: rgb(255, 255, 255);border:none;vertical-align:middle;overflow:hidden;text-decoration:none;white-space:nowrap;position: relative;}
-.btn{padding: 15px 45px;width: 200px;background-color: rgb(38, 58, 66);margin: 0px;text-align: center;text-transform: uppercase;transition: 1s;color: #fff;border:none;vertical-align:middle;overflow:hidden;text-decoration:none;white-space:nowrap;position: relative;}
+.btn-blue {border-radius:0px 30px 0px 0px;padding: 15px 45px;width: 200px;background-color: rgb(38, 58, 66);margin: 0px;text-align: center;text-transform: uppercase;transition: 1s;color: #fff;border:none;vertical-align:middle;overflow:hidden;text-decoration:none;white-space:nowrap;position: relative;}
 .btn-blue:hover{background-color:#def8fd;color:rgb(0, 0, 0);text-decoration: none;}
+.btn{background-color: rgb(38, 58, 66);border:none;display:inline-block;padding:1px 13px;vertical-align:middle;overflow:hidden;text-decoration:none;color:#fff;text-align:center;white-space:nowrap;width: 500px;}
 
 .dropdown-hover{position:absolute;cursor:pointer;}
 .rnd{border-radius:0px 0px 30px 0px}
@@ -79,12 +71,14 @@ p {text-align:justify; text-justify:auto;}
 .marginright{margin-right: 6%;margin-left: 0%;}
 .container{padding:0.01em 16px}
 .container2{text-align: center;height: 300px;}
-.third{float:left;width:33.33333%}.twothird{float:left;width:66.66666%}
-.third-art{float:left;width:33.33333%}
+.third,.third-art {float:left;width:33.33333%}.twothird{float:left;width:66.66666%}
 @media (min-width: 1400px){.third-art{float:left;width:25%}}
+
+
 /*DECALAGE IMAGES EN HAUTEUR------------------------------------------------------------------------------------------------------------------------------*/
 .void{height: 3em;}
 @media (min-width: 1400px){.void{height: 10px;}}
+
 
 /*COULEURS----------------------------------------------------------------------------------------------------------------------------*/
 .colorblue{  color: rgb(167, 177, 207)!important}
@@ -92,10 +86,12 @@ p {text-align:justify; text-justify:auto;}
 .black{color:#fff!important;background-color:rgb(38, 58, 66)!important}
 .white{background-color: #fff!important}
 
+
 /*-----------------------------------------------------------------------------------------------------------------------------------*/
 .rnd-bottom{border-radius:0px 0px 20px 20px}
 .rnd-top{border-radius:20px 80px 0px 0px}
 .padding-art{padding: 16px !important;}
+
 
 /*TEXTE DANS IMAGE--------------------------------------------------------------------------------------------------------------------------*/
 .display-container{position:relative}
@@ -104,19 +100,13 @@ p {text-align:justify; text-justify:auto;}
 .display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
 .display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
 .content{margin-left:auto;margin-right:auto}.content{max-width:980px}
-.mySlides {display:none;}
-.yes{display:none;}
-
+.mySlides,.yes {display:none;}
 
 
 /*ARRONDI-----------------------------------------------------------------------------------------------------------------------------*/
 .round{border-radius:30px}
 .round-left{border-radius:40px 0px 0px 40px}
 .round-right{border-radius:0px 40px 40px 0px}
-
-
-/*-----------------------------------------------------------------------------------------------------------------------------------*/
-.btn{background-color: rgb(38, 58, 66);border:none;display:inline-block;padding:1px 13px;vertical-align:middle;overflow:hidden;text-decoration:none;color:#fff;text-align:center;white-space:nowrap;width: 500px;}
 
 
 /*TABLEAU----------------------------------------------------------------------------------------------------------------------------*/
