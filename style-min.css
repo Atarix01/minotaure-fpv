@@ -146,9 +146,8 @@ p {text-align:justify; text-justify:auto;}
 
 .re-size{text-align: left;width: 100%;}
 
-.space-10{height: 10px;}
-.space-20{height: 15px;}
-.space-30{height: 25px;}
-.space-50{height: 30px;}
+.space-10{height: 0.5em;}
+.space-20{height: 1em;}
+.space-30{height: 1.5em;}
+.space-50{height: 2em;}
 .space-70{height: 70px;}
-
