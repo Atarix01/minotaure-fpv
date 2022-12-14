@@ -20,6 +20,7 @@ h3{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0;text-al
 .img-banner{display: block;margin-left: auto;margin-right: auto;width: 100%;}
 .img-hover{display: block;margin-left: auto;margin-right: auto;width: 70%;}
 .img-hover:hover{display: block;margin-left: auto;margin-right: auto;width: 100%;}
+.img-articles{margin-left: auto;margin-right: auto;width: 100%;}
 
 
 /*Effet cadre----------------------------------------------*/
@@ -79,7 +80,8 @@ p {text-align:justify; text-justify:auto;}
 .container{padding:0.01em 16px}
 .container2{text-align: center;height: 300px;}
 .third{float:left;width:33.33333%}.twothird{float:left;width:66.66666%}
-
+.third-art{float:left;width:33.33333%}
+@media (min-width: 1400px){.third-art{float:left;width:25%}}
 /*DECALAGE IMAGES EN HAUTEUR------------------------------------------------------------------------------------------------------------------------------*/
 .void{height: 3em;}
 @media (min-width: 1400px){.void{height: 10px;}}
@@ -146,4 +148,6 @@ table{width: 100%;table-layout: auto;}
 .animate-left{position:relative;animation:animateleft 1s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
 
 .hover-grey:hover{opacity:0.60}
+
+.re-size{margin-left: auto;margin-right: auto;width: 100%}
 
