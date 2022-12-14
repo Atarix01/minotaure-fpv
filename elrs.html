@@ -3,7 +3,126 @@
     
 <head>
     <title>ELRS</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1"charset="UTF-8" />
+    <!DOCTYPE html>
+    <html lang="fr">
+        
+    <head>
+        <title>ELRS</title>
+        <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="media/favicon.ico" type="image/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" media="screen and (min-width: 901px)" href="style.css">
+        <link rel="stylesheet" media="screen and (max-width: 901px)" href="style-min.css">
+        <script src="https://kit.fontawesome.com/57c1e3ae08.js" crossorigin="anonymous"></script>
+    </head>
+    
+    <body class="white">
+    
+        <div class="card center">
+          <div class="x-large">Module ELRS nano TX</div>
+        </div>
+    
+    
+        <div class="dropdown-hover">
+          <button class="btn-blue">Menu</button>
+          <div class="dropdown-content bar-block animate-left">
+            <a href="index.html" class="bar-item button" style="text-decoration: none;">Accueil</a>
+            <a href="drone5.html" class="bar-item button" style="text-decoration: none;">Drone 5"</a>
+            <a href="materiel.html" class="bar-item button" style="text-decoration: none;">Materiel</a>
+            <a href="article.html" class="bar-item button rnd" style="text-decoration: none;">Articles</a>
+          </div>
+        </div>
+    
+        <br><br>
+    
+       <div class="margin-x">
+    
+      <h3>Présentation de l'Express LRS...</h3>
+      <p>
+        Le système ELRS, de son vrai nom Express LRS est un protocole de communication Open source ( = auquel tout le monde à axces).
+        Ces derniers temps, le système ELRS s'est démocratiser et à détroner les anciens systèmes ( Crossfire, Ghost, et Tracer ) grâce à son prix réduit et à ses exelentes performances comme nous allons le voir...
+      </p>
+    
+      <div class="container-img">
+        <img src="media/elrs/elrs.png" class="img-small">
+      </div>
+    
+      <br>
+      
+      <h3>Un protocole compatible avec beaucoup de récepteurs...</h3>
+      <p>
+        Ce protocole est compatible avec tous les récepteurs équipés d'une puce Smtech. Il est donc compatible avec des puces très utilisés en programmation comme l'ESP32, la STM32 ou encore l'ESP8285.
+        De plus ,de nombreuses mises à jour sont efféctués fréquament ce qui laisse envisager de nouvelles compatibilités avec d' autres composants.
+      </p>   
+      
+      <div class="container-img">
+        <img src="media/elrs/graphique.jpg" class="img-hover">
+      </div>
+    
+      <br>
+    
+      <h3>Un système disponible en plusieurs fréquences...</h3>
+      <p>
+        En effet, ce système est disponible en deux fréquences, soit 2.4Ghz, soit 868Mhz. 
+        Cela permet donc de faire du long range grâceau système en 868Mhz ou de la rece et du freestyle avec une très faible latence avec le 2.4Ghz.
+      </p>
+    
+      <br>
+    
+      <h3>Une faible latence...</h3>
+      <p>
+        Comme vous pouvez le voir dans l'image ci-dessous, le système ELRS dispose d'une très faible latence.
+        En effet, on constate que la latence descent à 4.92ms en 2.4Ghz et 9.84ms en 868Mhz. Le système Crossfire en 2.4Ghz offre quant à lui une latence de 10.58ms.
+        L'ELRS bat donc le Crossfire en matière de latence.
+      </p>
+    
+      <div class="container-img">
+        <img src="media/elrs/tableau.png" class="img-big">
+      </div>
+    
+      <br>
+    
+      <h3>Tout petit...</h3>
+      <p>
+        Le nano RX de BetaFPV est un des plus petits RX du marché actuellement, avec ses 0,7 grammes et sa taille de 17mm x 19mm, ce RX est parfait pour les drones 
+        freestyle, racer ou cinewhoop qui ne permettent pas d'embarquer des RX lourds et volumineux.
+      </p>
+    
+      <div class="container-img">
+        <img src="media/elrs/nano-rx.jpg" class="img-article">
+      </div>
+    
+      
+      <h3>Réglages bind et configuration...</h3>
+      <p>
+        Avec les modules BetaFPV, l'instalation est simple et intuitive, la fonction wifi des module permet de configurer le materiel dirrectement via l'application "<a href="https://www.expresslrs.org/1.0/quick-start/installing-configurator/" class="colorblue2" >ELRS configurator</a>"".
+        Du côtè de la télécommande il suffit juste de lui indiquer que vous utilisz un module CRSF ( crossfire ) et d'unstaler le <a href="https://github.com/ExpressLRS/ExpressLRS/tree/1.0.0/src/lua" class="colorblue2" >script lua</a> dans la carte SD. 
+        Sur Betaflight, il suffit de configurer le RX comme un module crossfire ( dans l'onglet "Ports" il faut choisir l'UART sur lequel le RX est connecter puis cocher l'option "Serial RX"). 
+        Après cela, la configuration reste la même que pour les autres récépteurs.</p>
+    
+      <h3>Pour conclure...</h3>
+      <p>
+        Le système Express LRS est vraiment un excellent système, il est simple d'utilisation, performant, simple à installer et est endu à un prix raisonable.
+        Pour moi, le système ELRS est actuellement le meilleur du marché.
+      </p>
+    
+      </div>
+    
+      <br>
+      <br>
+    
+        
+      <footer>
+        <div class="card black padding-small center">
+          <h3 class="colorblue">Mes résaux</h3>
+            <a class="btn-icons" href="https://www.tiktok.com/@minotaure_fpv"><i class="fa-brands fa-tiktok" style="font-size:26px;"></i ></a>
+            <a class="btn-icons" href="https://www.instagram.com/minotaure.fpv"><i class="fa-brands fa-instagram" style="font-size:26px;"></i ></a >
+            <a class="btn-icons" href="https://www.youtube.com/@lesmodelistesdevincennes5600"><i class="fa-brands fa-youtube" style="font-size:26px;"></i ></a >
+        </div>
+      </footer>
+    
+    </html>
     <link rel="stylesheet" media="screen and (min-width: 901px)" href="style.css">
     <link rel="stylesheet" media="screen and (max-width: 901px)" href="style-min.css">
     <script src="https://kit.fontawesome.com/57c1e3ae08.js" crossorigin="anonymous"></script>

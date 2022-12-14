@@ -2,26 +2,154 @@
 <html lang="fr">
     
 <head>
-    <title>Minotaure FPV</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8" />
+    <title>ELRS</title>
+    <!DOCTYPE html>
+    <html lang="fr">
+        
+    <head>
+        <title>HDZero</title>
+        <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="media/favicon.ico" type="image/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" media="screen and (min-width: 901px)" href="style.css">
+        <link rel="stylesheet" media="screen and (max-width: 901px)" href="style-min.css">
+        <script src="https://kit.fontawesome.com/57c1e3ae08.js" crossorigin="anonymous"></script>
+    </head>
+    
+    <body class="white">
+    
+        <div class="card center">
+          <div class="x-large">Module ELRS nano TX</div>
+        </div>
+    
+    
+        <div class="dropdown-hover">
+          <button class="btn-blue">Menu</button>
+          <div class="dropdown-content bar-block animate-left">
+            <a href="index.html" class="bar-item button" style="text-decoration: none;">Accueil</a>
+            <a href="drone5.html" class="bar-item button" style="text-decoration: none;">Drone 5"</a>
+            <a href="materiel.html" class="bar-item button" style="text-decoration: none;">Materiel</a>
+            <a href="article.html" class="bar-item button rnd" style="text-decoration: none;">Articles</a>
+          </div>
+        </div>
+    
+        <br><br>
+    
+       <div class="margin-x">
+
+      <h3>Présentation de HDZero</h3>
+      <p>
+         Dans cet article, je vais presenter le module VRX ( = récepteur vidéo ) de chez HDzero développée par Divimath. Le module HDZero est déstiné aux pilotes FPV qui sont déjà équipés de masques FPV analogiques,
+        et qui souhaitent avoir une meilleure qualité de retransmission vidéo sans payer une fortune.
+      </p>
+
+      <div class="container-img">
+        <img src="media/article/hdzero.jpg" class="img-small">
+      </div>
+      
+      <h3>Présentation de Divimath</h3>
+      <p>
+        Divimath est une entreprise spécialisée
+        dans la connception d'algorithmes de codage vidéo et audio haute définition et dans la conception de systèmes transmition sans fil. 
+        Divimath à dévelopée sa puce DM5680 en 2019, elle était initialement utilisé dans les produits Bytefrost/Sharkbyte de la marque Fatskark jusqu'en 2021, quand Divimath decide de lancer sa propre marque: HDZero
+      </p>
+    
+      <div class="container-img">
+        <img src="media/elrs/elrs.png" class="img-small">
+      </div>
+    
+      <br>
+      
+      <h3>Un protocole compatible avec beaucoup de récepteurs...</h3>
+      <p>
+        Ce module permet de convertir son masque FPV analogique en masque numérique et donc d'offrir une meilleur qualité vidéo et une meilleure portée.
+      </p>   
+      
+      <div class="container-img">
+        <img src="media/elrs/graphique.jpg" class="img-hover">
+      </div>
+    
+      <br>
+    
+      <h3>Un système disponible en plusieurs fréquences...</h3>
+      <p>
+        En effet, ce système est disponible en deux fréquences, soit 2.4Ghz, soit 868Mhz. 
+        Cela permet donc de faire du long range grâceau système en 868Mhz ou de la rece et du freestyle avec une très faible latence avec le 2.4Ghz.
+      </p>
+    
+      <br>
+    
+      <h3>Une faible latence...</h3>
+      <p>
+        Comme vous pouvez le voir dans l'image ci-dessous, le système ELRS dispose d'une très faible latence.
+        En effet, on constate que la latence descent à 4.92ms en 2.4Ghz et 9.84ms en 868Mhz. Le système Crossfire en 2.4Ghz offre quant à lui une latence de 10.58ms.
+        L'ELRS bat donc le Crossfire en matière de latence.
+      </p>
+    
+      <div class="container-img">
+        <img src="media/elrs/tableau.png" class="img-big">
+      </div>
+    
+      <br>
+    
+      <h3>Tout petit...</h3>
+      <p>
+        Le nano RX de BetaFPV est un des plus petits RX du marché actuellement, avec ses 0,7 grammes et sa taille de 17mm x 19mm, ce RX est parfait pour les drones 
+        freestyle, racer ou cinewhoop qui ne permettent pas d'embarquer des RX lourds et volumineux.
+      </p>
+    
+      <div class="container-img">
+        <img src="media/elrs/nano-rx.jpg" class="img-article">
+      </div>
+    
+      
+      <h3>Réglages bind et configuration...</h3>
+      <p>
+        Avec les modules BetaFPV, l'instalation est simple et intuitive, la fonction wifi des module permet de configurer le materiel dirrectement via l'application "<a href="https://www.expresslrs.org/1.0/quick-start/installing-configurator/" class="colorblue2" >ELRS configurator</a>"".
+        Du côtè de la télécommande il suffit juste de lui indiquer que vous utilisz un module CRSF ( crossfire ) et d'unstaler le <a href="https://github.com/ExpressLRS/ExpressLRS/tree/1.0.0/src/lua" class="colorblue2" >script lua</a> dans la carte SD. 
+        Sur Betaflight, il suffit de configurer le RX comme un module crossfire ( dans l'onglet "Ports" il faut choisir l'UART sur lequel le RX est connecter puis cocher l'option "Serial RX"). 
+        Après cela, la configuration reste la même que pour les autres récépteurs.</p>
+    
+      <h3>Pour conclure...</h3>
+      <p>
+        Le système Express LRS est vraiment un excellent système, il est simple d'utilisation, performant, simple à installer et est endu à un prix raisonable.
+        Pour moi, le système ELRS est actuellement le meilleur du marché.
+      </p>
+    
+      </div>
+    
+      <br>
+      <br>
+    
+        
+      <footer>
+        <div class="card black padding-small center">
+          <h3 class="colorblue">Mes résaux</h3>
+            <a class="btn-icons" href="https://www.tiktok.com/@minotaure_fpv"><i class="fa-brands fa-tiktok" style="font-size:26px;"></i ></a>
+            <a class="btn-icons" href="https://www.instagram.com/minotaure.fpv"><i class="fa-brands fa-instagram" style="font-size:26px;"></i ></a >
+            <a class="btn-icons" href="https://www.youtube.com/@lesmodelistesdevincennes5600"><i class="fa-brands fa-youtube" style="font-size:26px;"></i ></a >
+        </div>
+      </footer>
+    
+    </html>
     <link rel="stylesheet" media="screen and (min-width: 901px)" href="style.css">
     <link rel="stylesheet" media="screen and (max-width: 901px)" href="style-min.css">
     <script src="https://kit.fontawesome.com/57c1e3ae08.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="white">
 
-    <div class="display-container"> 
-      <img src="media/baniere.jpg" width="100%" height="auto" class="display-none">
-      <div class="display-middle btn round center2 x-large">Minotaure FPV</div>
+    <div class="card center">
+      <div class="x-large">Module ELRS nano TX</div>
     </div>
 
 
     <div class="dropdown-hover">
       <button class="btn-blue">Menu</button>
       <div class="dropdown-content bar-block animate-left">
-        <a href="drone5.html" class="bar-item button" style="text-decoration: none;"> Drone 5"</a>
-        <a href="protek.html" class="bar-item button" style="text-decoration: none;">Drone 2,5"</a>
+        <a href="index.html" class="bar-item button" style="text-decoration: none;">Accueil</a>
+        <a href="drone5.html" class="bar-item button" style="text-decoration: none;">Drone 5"</a>
         <a href="materiel.html" class="bar-item button" style="text-decoration: none;">Materiel</a>
         <a href="article.html" class="bar-item button rnd" style="text-decoration: none;">Articles</a>
       </div>
@@ -29,85 +157,90 @@
 
     <br><br>
 
+   <div class="margin-x">
 
-    <p class="padding margin-x"> Je suis passionné par le modélisme, et particulièrement par les drones FPV depuis quelques années. 
-    Les drones FPV sont équipés d'une mini caméra embarquée qui permet au pilote de voir en temps réel ce que filme son drone à travers des lunettes de réalite virtuelle.
-    Cela rend le pilotage beaucoup plus immersif et agréable pour le pilote.
-    <br><br>
-    Ces drones offrent de nombreuses possibilités (courses de drones, vidéos aériennes, ou juste utilisation pour le loisir...) notament grace à leur forte poussée et à leur grande maniabilitée. 
-    Ils permettent par exemple d'embarquer des caméras type GoPro tout en allant à des vitesses jusqu'a 150km/h.
-    <br><br>
-    Personnellement, j'utilise mes drones pour effectuer des prises de vidéos aériennes et pour mon loisir personnel. </p>
-    
+  <h3>Présentation de l'Express LRS...</h3>
+  <p>
+    Le système ELRS, de son vrai nom Express LRS est un protocole de communication Open source ( = auquel tout le monde à axces).
+    Ces derniers temps, le système ELRS s'est démocratiser et à détroner les anciens systèmes ( Crossfire, Ghost, et Tracer ) grâce à son prix réduit et à ses exelentes performances comme nous allons le voir...
+  </p>
 
+  <div class="container-img">
+    <img src="media/elrs/elrs.png" class="img-small">
+  </div>
 
-    
-    <div class="row marginleft round-left ">
-      <div class="container third">
-        <div class="void"></div>
-        <img src="media/drones.jpg" width="100%" height="auto" class="img">
-      </div>
+  <br>
+  
+  <h3>Un protocole compatible avec beaucoup de récepteurs...</h3>
+  <p>
+    Ce protocole est compatible avec tous les récepteurs équipés d'une puce Smtech. Il est donc compatible avec des puces très utilisés en programmation comme l'ESP32, la STM32 ou encore l'ESP8285.
+    De plus ,de nombreuses mises à jour sont efféctués fréquament ce qui laisse envisager de nouvelles compatibilités avec d' autres composants.
+  </p>   
+  
+  <div class="container-img">
+    <img src="media/elrs/graphique.jpg" class="img-hover">
+  </div>
 
-      <div class="container twothird">
-        <h3>Mes drones...</h3>
-        <p>J'ustilse deux drones, un <a href="drone5.html" class="colorblue2" >drone 5 pouces</a> type de cinematique, et un <a href="drone5.html" class="colorblue2" >drone 2,5 pouces</a> cinewhoop, le <a href="drone5.html" class="colorblue2" >Protek25</a>.
-          Ces deux drones ont été montés par mes soins et sont fabriqués à partir de composants achetés sur Internet. 
-          Ils sont déstines a effectuer de prises de vidéo et sont donc capables d'embarquer une caméra.</p> 
-      </div>
-    </div>
+  <br>
 
-    <br>
-   
-    <div class="row marginright round-right">
+  <h3>Un système disponible en plusieurs fréquences...</h3>
+  <p>
+    En effet, ce système est disponible en deux fréquences, soit 2.4Ghz, soit 868Mhz. 
+    Cela permet donc de faire du long range grâceau système en 868Mhz ou de la rece et du freestyle avec une très faible latence avec le 2.4Ghz.
+  </p>
 
-      <div class="container third yes">
-        <div class="void"></div>
-        <img src="media/materiel.jpg" width="100%" height="auto" class="img">
-      </div>
-    
-      <div class="container twothird">
-        <h3>Mon materiel FPV...</h3>
-        <p class="margin">Un certain nombre d'élements sont indispensables à la pratique du drone FPV.
-          Parmis eux on retrouve notament les batterise du drone, la télecomande du drone, le casque de réalite virtuelle servant au retour vidéo, mais également certains acessoirs spéciaux.
-          Toutes les informations concernant les accessoires que j'utilise personellement sont à retrouver dans la rubrique <a href="materiel.html" class="colorblue2">materiel</a>.</p>
-      </div>
+  <br>
 
-      <div class="container third none">
-        <div class="void"></div>
-        <img src="media/materiel.jpg" width="100%" height="auto" >
-      </div>
-    </div>
+  <h3>Une faible latence...</h3>
+  <p>
+    Comme vous pouvez le voir dans l'image ci-dessous, le système ELRS dispose d'une très faible latence.
+    En effet, on constate que la latence descent à 4.92ms en 2.4Ghz et 9.84ms en 868Mhz. Le système Crossfire en 2.4Ghz offre quant à lui une latence de 10.58ms.
+    L'ELRS bat donc le Crossfire en matière de latence.
+  </p>
 
-    <br>
+  <div class="container-img">
+    <img src="media/elrs/tableau.png" class="img-big">
+  </div>
 
-    <div class="row marginleft round-left">
-      <div class="container third">
-        <div class="void"></div>
-        <img src="media/gopro.jpg" width="100%" height="auto" class="img"> 
-      </div>
+  <br>
 
-      <div class="container twothird">
-        <h3>Mon materiel vidéo</h3>
-        <p>J'utilise deux caméras GoPro, ces caméras sont réputés pour leur qualitée vidéo exelente, leur taille ainsi que leur poids relativement léger.
-          Ma Gopro 8 est une Gopro 8 naked "qui vient de l' anglais mettre à nu" cela signifie que cette gopro est débarasse de beaucoup d'éléments superflu: plus d'infos <a href="gopgo.html" class="colorblue2"> ici</a>.</p> 
-      </div>
-    </div>
+  <h3>Tout petit...</h3>
+  <p>
+    Le nano RX de BetaFPV est un des plus petits RX du marché actuellement, avec ses 0,7 grammes et sa taille de 17mm x 19mm, ce RX est parfait pour les drones 
+    freestyle, racer ou cinewhoop qui ne permettent pas d'embarquer des RX lourds et volumineux.
+  </p>
 
+  <div class="container-img">
+    <img src="media/elrs/nano-rx.jpg" class="img-article">
+  </div>
 
-    <br>
+  
+  <h3>Réglages bind et configuration...</h3>
+  <p>
+    Avec les modules BetaFPV, l'instalation est simple et intuitive, la fonction wifi des module permet de configurer le materiel dirrectement via l'application "<a href="https://www.expresslrs.org/1.0/quick-start/installing-configurator/" class="colorblue2" >ELRS configurator</a>"".
+    Du côtè de la télécommande il suffit juste de lui indiquer que vous utilisz un module CRSF ( crossfire ) et d'unstaler le <a href="https://github.com/ExpressLRS/ExpressLRS/tree/1.0.0/src/lua" class="colorblue2" >script lua</a> dans la carte SD. 
+    Sur Betaflight, il suffit de configurer le RX comme un module crossfire ( dans l'onglet "Ports" il faut choisir l'UART sur lequel le RX est connecter puis cocher l'option "Serial RX"). 
+    Après cela, la configuration reste la même que pour les autres récépteurs.</p>
+
+  <h3>Pour conclure...</h3>
+  <p>
+    Le système Express LRS est vraiment un excellent système, il est simple d'utilisation, performant, simple à installer et est endu à un prix raisonable.
+    Pour moi, le système ELRS est actuellement le meilleur du marché.
+  </p>
+
+  </div>
+
+  <br>
+  <br>
 
     
   <footer>
     <div class="card black padding-small center">
       <h3 class="colorblue">Mes résaux</h3>
-        <a class="btn-icons-tiktok" href="https://www.tiktok.com/@minotaure_fpv"><i class="fa-brands fa-tiktok" style="font-size:26px;"></i ></a>
-        <a class="btn-icons-insta" href="https://www.instagram.com/minotaure.fpv"><i class="fa-brands fa-instagram" style="font-size:26px;"></i ></a >
+        <a class="btn-icons" href="https://www.tiktok.com/@minotaure_fpv"><i class="fa-brands fa-tiktok" style="font-size:26px;"></i ></a>
+        <a class="btn-icons" href="https://www.instagram.com/minotaure.fpv"><i class="fa-brands fa-instagram" style="font-size:26px;"></i ></a >
         <a class="btn-icons" href="https://www.youtube.com/@lesmodelistesdevincennes5600"><i class="fa-brands fa-youtube" style="font-size:26px;"></i ></a >
     </div>
   </footer>
-
-
-
-</body>
 
 </html>
