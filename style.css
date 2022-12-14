@@ -66,7 +66,7 @@ div,p {text-align:justify; text-justify:auto;}
 
 /*CONTENEUR IMG-TXT-----------------------------------------------------------------------------------------------------------------------------*/
 .container:after,.container:before,.row:after,.row:before{content:"";display:table;clear:both}
-.row{background-color: #eaeaec;}
+.row{background-color: rgb(214, 214, 214);}
 .marginleft{margin-left: 6%;margin-right: 0%;}
 .marginright{margin-right: 6%;margin-left: 0%;}
 .container{padding:0.01em 16px}
