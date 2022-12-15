@@ -15,9 +15,10 @@ h3{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0;text-al
 .img,.img-hover:hover {display: block;margin-left: auto;margin-right: auto;width: 100%;}
 .img-article{display: block;margin-left: auto;margin-right: auto;width: 60%;}
 .img-small{display: block;margin-left: auto;margin-right: auto;width: 50%;}
+.img-very-small{display: block;margin-left: auto;margin-right: auto;width: 30%;}
 .img-big .img-hover {display: block;margin-left: auto;margin-right: auto;width: 70%;}
 .img-width{width: 100%; height: auto}
-.img-banner{display: block;margin-left: auto;margin-right: auto;width: 100%;}
+.img-banner{display: block;margin-left: auto;margin-right: auto;width: 100%; margin-bottom: 2px;}
 .img-articles{margin-left: auto;margin-right: auto;width: 100%;}
 
 

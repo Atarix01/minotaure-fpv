@@ -16,6 +16,7 @@ body{font-size: 14px; transition-duration: 1s;}
 @media (max-width:450px){.img-big{display: block;margin-left: auto;margin-right: auto;width: 100%;}}
 @media (max-width:450px){.text{font-size: 12px;}}
 
+.img-very-small{display: block;margin-left: auto;margin-right: auto;width: 70%;}
 .img2{top:00%;left:50%;transform:translate(50%,00%);-ms-transform:translate(50%,00%);}
 .img-width{width: 100%; height: auto}
 .img-article{display: block;margin-left: auto;margin-right: auto;width: 60%;}
